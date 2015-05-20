@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow_blu"
+    android:orientation="vertical"
+    tools:context="org.belposttracker.ParcelDataActivity" >
+
+    <ListView
+        android:id="@+id/lvParcelDataList"
+        android:layout_width="match_parent"
+        android:layout_height="388dp"
+        android:layout_weight="0.86" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/butSubscribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.07"
+        android:background="@drawable/but_size_states"
+        android:onClick="onSubscribeClick"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/subscribe"
+        android:textStyle="bold" />
+
+</LinearLayout>

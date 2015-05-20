@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+     <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+       > 
+
+        <LinearLayout
+            android:layout_width="555dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/butTrack"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8.37"
+                android:alpha="0.7"
+                android:text="TRACK NUMBER" />
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="139dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="Статус"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/butDel"
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.46"
+                android:alpha="0.7"
+                android:text="УДАЛИТЬ" />
+            
+        </LinearLayout>
+
+    </HorizontalScrollView>
+ 
+
+

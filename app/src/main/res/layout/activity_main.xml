@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/blu_green"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/etParcelNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/enter_parcel_number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etParcelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="@string/enter_parcel_name" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/butUpdateAll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/but_size_states"
+            android:onClick="onUpdateAllClick"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="ОБНОВИТЬ ВСЁ"
+            android:textStyle="bold"
+            android:textSize="@dimen/big_button_text"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/butSearch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+
+            android:background="@drawable/but_size_states"
+
+            android:onClick="onSearchClick"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="@string/search"
+            android:textStyle="bold"
+            android:textSize="@dimen/big_button_text"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="15dp"
+        android:text="МОИ ПОСЫЛКИ"
+        android:textColor="#000000"
+        android:textSize="@dimen/big_button_text"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/lvTrackList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+
+    </ListView>
+
+</LinearLayout>
+
+

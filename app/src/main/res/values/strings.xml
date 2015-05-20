@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BelpostTracker</string>
+    <string name="action_settings">НАСТРОЙКИ</string>
+    <string name="enter_parcel_number">Введите номер посылки</string>
+    <string name="enter_parcel_name">Введите название посылки</string>
+    <string name="send_review">ОТПРАВИТЬ ОТЗЫВ</string>
+    <string name="order_application">ЗАКАЗАТЬ ПРИЛОЖЕНИЕ</string>
+    <string name="site_belpost">Сайт РУП "БЕЛПОЧТА"</string>
+    <string name="search">ИСКАТЬ</string>
+    <string name="wait">Ожидайте...</string>
+    <string name="title_activity_main">СЛЕЖЕНИЕ</string>
+    <string name="title_activity_parcel_history">ИСТОРИЯ ПОСЫЛКИ</string>
+    <string name="subscribe">ПОДПИСАТЬСЯ</string>
+    <string name="unknown">Нет данных</string>
+    <string name="delivered">Доставлено</string>
+    <string name="in_transit">В пути</string>
+    <string name="no_connection">Нет соединения</string>
+    <string name="alert_title">ПОЛНАЯ ВЕРСИЯ</string>
+    <string name="alert_message">Для получения возможности уведомления о доставке 
+        вам необходимо приобрести полную версию приложения.</string>
+    <string name="cancel">Отмена</string>
+    <string name="buy">Купить за $ 0.99</string>
+    <string name="text_for_settings_activity">Информация о посылках получена с сайта РУП "Белпочта".\n\n
+        РУП "БЕЛПОЧТА" не имеет непосредственного отношения к приложению и не несет какой-либо 
+        ответственности за него.</string>
+   
+
+</resources>
